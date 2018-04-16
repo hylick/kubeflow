@@ -1,0 +1,24 @@
+apiVersion: '0.1'
+kind: ksonnet.io/registry
+libraries:
+  core:
+    version: master
+    path: core
+  tf-job:
+    version: master
+    path: tf-job
+  tf-serving:
+    version: master
+    path: tf-serving
+  argo:
+    version: master
+    path: argo
+  pachyderm:
+    version: master
+    path: pachyderm
+  slope:
+    version: master
+    path: slope
+  new-package-stub:
+    version: master
+    path: new-package-stub

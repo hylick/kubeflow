@@ -1,0 +1,35 @@
+{
+   "name": "slope",
+   "apiVersion": "0.0.1",
+   "kind": "ksonnet.io/parts",
+   "description": "Prototypes for running TensorFlow jobs.\n",
+   "author": "Anthony Hylick <hylick@google.com>",
+   "contributors": [
+      {
+         "name": "Anthony Hylick",
+         "email": "hylick@google.com"
+      }
+   ],
+   "repository": {
+      "type": "git",
+      "url": "https://github.com/kubeflow/kubeflow"
+   },
+   "bugs": {
+      "url": "https://github.com/kubeflow/kubeflow/issues"
+   },
+   "keywords": [
+      "kubeflow",
+      "tensorflow",
+      "mvp"
+   ],
+   "quickStart": {
+      "prototype": "io.ksonnet.pkg.slope",
+      "componentName": "slope",
+      "flags": {
+         "name": "slope",
+         "namespace": "default"
+      },
+      "comment": "Run TensorFlow Job"
+   },
+   "license": "Apache 2.0"
+}
