@@ -10,7 +10,7 @@ local k = import "k.libsonnet";
       local containerArgs = if std.length(args) > 0 then
         {
           args: args,
-	  command: "python",
+	  command: ["python"],
         }
       else {};
       local resources = if numGpus > 0 then {
