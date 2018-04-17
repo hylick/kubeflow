@@ -45,7 +45,7 @@ local checkpoint_dir = "./foo";
 
 local args = [
                "python",
-               "run.py",
+               "/home/jovyan/run.py",
                "--mode=" + mode,
                "--num_inputs=" + num_inputs,
                "--num_outputs=" + num_outputs,
