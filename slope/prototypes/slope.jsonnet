@@ -44,6 +44,7 @@ local num_epochs = "5000";
 local checkpoint_dir = "./foo";
 
 local args = [
+	       "python",
                "/home/jovyan/run.py",
                "--mode=" + mode,
                "--num_inputs=" + num_inputs,
