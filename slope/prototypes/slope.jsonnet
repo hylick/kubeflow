@@ -90,7 +90,7 @@ local replicas = std.map(function(s)
                                spec+: {
                                  containers: [
                                    s.template.spec.containers[0] {
-                                     workingDir: "/workdir",
+                                     workingDir: "/home/jovyan",
                                    },
                                  ],
                                },
